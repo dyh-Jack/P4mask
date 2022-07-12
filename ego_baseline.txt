@@ -1,0 +1,109 @@
+Namespace(batch_size=48, data_path='/share/zhuoyang/PartNet_ego/Chair-2', depth=2, dim=1024, emb_relu=False, epochs=150, head=4, lr=0.01, lr_gamma=0.1, lr_milestones=[30, 40, 50], lr_warmup_epochs=10, mlp_dim=2048, model='P4Transformer', momentum=0.9, nsamples=32, output_dir='', print_freq=20, radius=0.9, resume='', seed=0, start_epoch=0, weight_decay=0.0001, workers=16)
+torch version:  1.9.0+cu111
+torchvision version:  0.10.0+cu111
+Loading data
+Creating data loaders
+Creating model
+Start training
+Epoch: [0]  [  0/468]  eta: 4:00:34  lr: 1.0000000000000001e-07  loss: 3.4967 (3.4967)  time: 30.8432  data: 0.8547  max mem: 15698
+Epoch: [0]  [ 20/468]  eta: 1:32:20  lr: 4.283461538461539e-05  loss: 3.4773 (3.4732)  time: 11.4428  data: 0.0039  max mem: 15790
+Epoch: [0]  [ 40/468]  eta: 1:27:11  lr: 8.556923076923079e-05  loss: 3.4247 (3.4506)  time: 12.0711  data: 0.0033  max mem: 15790
+Epoch: [0]  [ 60/468]  eta: 1:24:57  lr: 0.00012830384615384615  loss: 3.3393 (3.4131)  time: 13.0483  data: 0.0040  max mem: 15790
+Epoch: [0]  [ 80/468]  eta: 1:21:31  lr: 0.00017103846153846157  loss: 3.2088 (3.3629)  time: 12.9508  data: 0.0044  max mem: 15790
+Epoch: [0]  [100/468]  eta: 1:15:37  lr: 0.00021377307692307693  loss: 3.0548 (3.3019)  time: 11.2070  data: 0.0040  max mem: 15790
+Epoch: [0]  [120/468]  eta: 1:10:34  lr: 0.0002565076923076923  loss: 2.8834 (3.2315)  time: 11.3516  data: 0.0042  max mem: 15790
+Epoch: [0]  [140/468]  eta: 1:05:53  lr: 0.0002992423076923077  loss: 2.6998 (3.1571)  time: 11.3638  data: 0.0040  max mem: 15790
+Epoch: [0]  [160/468]  eta: 1:01:26  lr: 0.00034197692307692313  loss: 2.5311 (3.0801)  time: 11.3726  data: 0.0041  max mem: 15790
+Epoch: [0]  [180/468]  eta: 0:58:02  lr: 0.0003847115384615385  loss: 2.4097 (3.0069)  time: 13.0685  data: 0.0042  max mem: 15790
+Epoch: [0]  [200/468]  eta: 0:54:25  lr: 0.00042744615384615386  loss: 2.2434 (2.9336)  time: 13.0488  data: 0.0044  max mem: 15790
+Epoch: [0]  [220/468]  eta: 0:50:16  lr: 0.0004701807692307692  loss: 2.1656 (2.8640)  time: 11.9175  data: 0.0045  max mem: 15790
+Epoch: [0]  [240/468]  eta: 0:45:54  lr: 0.0005129153846153845  loss: 2.0662 (2.7990)  time: 11.1895  data: 0.0045  max mem: 15790
+Epoch: [0]  [260/468]  eta: 0:41:37  lr: 0.00055565  loss: 2.0431 (2.7399)  time: 11.1351  data: 0.0046  max mem: 15790
+Epoch: [0]  [280/468]  eta: 0:37:28  lr: 0.0005983846153846154  loss: 1.8875 (2.6811)  time: 11.3516  data: 0.0046  max mem: 15790
+Epoch: [0]  [300/468]  eta: 0:33:23  lr: 0.0006411192307692307  loss: 1.8534 (2.6265)  time: 11.4037  data: 0.0046  max mem: 15790
+Epoch: [0]  [320/468]  eta: 0:29:19  lr: 0.0006838538461538463  loss: 1.8164 (2.5752)  time: 11.3098  data: 0.0052  max mem: 15790
+Epoch: [0]  [340/468]  eta: 0:25:17  lr: 0.0007265884615384615  loss: 1.8062 (2.5301)  time: 11.3894  data: 0.0046  max mem: 15790
+Epoch: [0]  [360/468]  eta: 0:21:23  lr: 0.000769323076923077  loss: 1.7368 (2.4865)  time: 12.2971  data: 0.0045  max mem: 15790
+Epoch: [0]  [380/468]  eta: 0:17:28  lr: 0.0008120576923076923  loss: 1.7745 (2.4500)  time: 12.5932  data: 0.0047  max mem: 15790
+Epoch: [0]  [400/468]  eta: 0:13:32  lr: 0.0008547923076923077  loss: 1.6883 (2.4130)  time: 12.4566  data: 0.0047  max mem: 15790
+Epoch: [0]  [420/468]  eta: 0:09:33  lr: 0.0008975269230769231  loss: 1.6645 (2.3775)  time: 11.8584  data: 0.0050  max mem: 15790
+Epoch: [0]  [440/468]  eta: 0:05:33  lr: 0.0009402615384615384  loss: 1.6504 (2.3437)  time: 11.0435  data: 0.0046  max mem: 15790
+Epoch: [0]  [460/468]  eta: 0:01:34  lr: 0.000982996153846154  loss: 1.5849 (2.3133)  time: 10.7213  data: 0.0047  max mem: 15790
+Epoch: [0] Total time: 1:32:15
+Test:  [ 0/51]  eta: 0:10:19  loss: 1.9250 (1.9250)  time: 12.1407  data: 1.5132  max mem: 15790
+Test:  [20/51]  eta: 0:05:19  loss: 2.0944 (2.0775)  time: 10.2060  data: 0.0049  max mem: 15790
+Test:  [40/51]  eta: 0:01:55  loss: 2.0637 (2.0672)  time: 10.6346  data: 0.0050  max mem: 15790
+Test: Total time: 0:08:49
+eval acc of 0:	 0.000340
+eval acc of 1:	 0.000000
+eval acc of 2:	 0.000000
+eval acc of 3:	 0.798534
+eval acc of 4:	 0.000000
+eval acc of 5:	 0.000000
+eval acc of 6:	 0.002947
+eval acc of 7:	 0.021936
+eval acc of 8:	 0.000000
+eval acc of 9:	 0.000000
+eval acc of 10:	 0.000000
+eval acc of 11:	 0.000000
+eval acc of 12:	 0.000000
+eval acc of 13:	 0.000000
+eval acc of 14:	 0.000000
+eval acc of 15:	 0.000000
+eval acc of 16:	 0.000000
+eval acc of 17:	 0.000000
+eval acc of 18:	 0.000000
+eval acc of 19:	 0.000000
+eval acc of 20:	 0.979820
+eval acc of 21:	 0.000000
+eval acc of 22:	 0.000000
+eval acc of 23:	 0.000000
+eval acc of 24:	 0.000116
+eval acc of 25:	 0.000000
+eval acc of 26:	 0.328676
+eval acc of 27:	 0.000000
+eval acc of 28:	 0.000000
+eval acc of 29:	 0.000000
+ * Eval accuracy: 0.071079
+eval mIoU of 0:	 0.000339
+eval mIoU of 1:	 0.000000
+eval mIoU of 2:	 0.000000
+eval mIoU of 3:	 0.503912
+eval mIoU of 4:	 0.000000
+eval mIoU of 5:	 0.000000
+eval mIoU of 6:	 0.002926
+eval mIoU of 7:	 0.021008
+eval mIoU of 8:	 0.000000
+eval mIoU of 9:	 0.000000
+eval mIoU of 10:	 0.000000
+eval mIoU of 11:	 0.000000
+eval mIoU of 12:	 0.000000
+eval mIoU of 13:	 0.000000
+eval mIoU of 14:	 0.000000
+eval mIoU of 15:	 0.000000
+eval mIoU of 16:	 0.000000
+eval mIoU of 17:	 0.000000
+eval mIoU of 18:	 0.000000
+eval mIoU of 19:	 0.000000
+eval mIoU of 20:	 0.306530
+eval mIoU of 21:	 0.000000
+eval mIoU of 22:	 0.000000
+eval mIoU of 23:	 0.000000
+eval mIoU of 24:	 0.000116
+eval mIoU of 25:	 0.000000
+eval mIoU of 26:	 0.266980
+eval mIoU of 27:	 0.000000
+eval mIoU of 28:	 0.000000
+eval mIoU of 29:	 0.000000
+ * Eval mIoU:	 0.036727
+Epoch: [1]  [  0/468]  eta: 1:33:49  lr: 0.00100009  loss: 1.7877 (1.7877)  time: 12.0283  data: 1.5422  max mem: 15790
+Epoch: [1]  [ 20/468]  eta: 1:18:03  lr: 0.0010428246153846156  loss: 1.5415 (1.5974)  time: 10.3766  data: 0.0052  max mem: 15790
+Epoch: [1]  [ 40/468]  eta: 1:20:06  lr: 0.0010855592307692308  loss: 1.5389 (1.5710)  time: 12.0417  data: 0.0042  max mem: 15790
+Epoch: [1]  [ 60/468]  eta: 1:17:58  lr: 0.0011282938461538463  loss: 1.5633 (1.5676)  time: 11.9565  data: 0.0045  max mem: 15790
+Epoch: [1]  [ 80/468]  eta: 1:14:33  lr: 0.0011710284615384615  loss: 1.5153 (1.5559)  time: 11.7185  data: 0.0048  max mem: 15790
+Epoch: [1]  [100/468]  eta: 1:10:33  lr: 0.001213763076923077  loss: 1.4923 (1.5510)  time: 11.4042  data: 0.0047  max mem: 15790
+Epoch: [1]  [120/468]  eta: 1:06:08  lr: 0.0012564976923076924  loss: 1.4917 (1.5403)  time: 10.8861  data: 0.0050  max mem: 15790
+Epoch: [1]  [140/468]  eta: 1:01:40  lr: 0.001299232307692308  loss: 1.4698 (1.5333)  time: 10.5477  data: 0.0047  max mem: 15790
+Epoch: [1]  [160/468]  eta: 0:57:56  lr: 0.001341966923076923  loss: 1.4737 (1.5294)  time: 11.3197  data: 0.0046  max mem: 15790
+Epoch: [1]  [180/468]  eta: 0:54:15  lr: 0.0013847015384615385  loss: 1.4644 (1.5222)  time: 11.4391  data: 0.0047  max mem: 15790
+Epoch: [1]  [200/468]  eta: 0:50:31  lr: 0.001427436153846154  loss: 1.4411 (1.5168)  time: 11.3716  data: 0.0047  max mem: 15790
